@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body , a , h1,h2, h3, h4, form, input, textarea, select,p , ul, li, button{
+    font-family: "Poppins", serif;
+}
+
+p,a ,li, ul, button{
+    font-size: 18px;
+    line-height: 2;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+}
+.navbar-brand img{
+    width: 150px;
+    height: auto;
+
+}
+.nav-item a{
+    font-weight: 500 !important;
+    color: #cdcfd5;
+
+}
+
+.nav-item a:hover{
+    color:#ce6176 ;
+}
+.nav-item a.active{
+    color:#cdcfd5 !important;
+}
+.nav{
+     background-color:green;
+     color: white ;
+    
+}
+.dropdown-menu a{  
+    color: black;
+}
+.container-fluid{
+    background:linear-gradient(
+        to bottom right, 
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+    ),
+    url('../images/code.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+}
+a.btn-c{
+    background: #4062cf;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 1px solid #4062cf;
+}
+h1{
+    font-size: 60px;
+    line-height: 2;
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins",sans-serif;
+}
+.cta {
+    background-color:#627ac8;
+    padding:10px 0 !important;
+}
+
+.cta h3{
+    color:#fff;
+}
+
+
+.offer{
+    display: flex;
+    justify-content: center;
+    font:bold;
+    font-size: 50px;
+}
+.login-container{
+
+    border-radius: 10px;
+    box-shadow: 0 4px 6px 0;
+    padding: 10px;
+}
+.log-in{
+    display: flex;
+    justify-content: center;
+}
+.signin a{
+    display: flex;
+    justify-content: center;
+}
+.colspac{
+    height: 80px;
+}
+
+
+
